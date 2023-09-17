@@ -1,3 +1,5 @@
+# thanks to https://github.com/k4l1sh/alexa-gpt/blob/main/lambda/lambda_function.py for providing the base that we worked off of
+
 import logging
 import ask_sdk_core.utils as ask_utils
 import openai
