@@ -1,0 +1,70 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-CA": {
+          "summary": "Track your meeting minutes without lifting a finger!",
+          "examplePhrases": [
+            "Alexa, open meeting kickoff",
+            "Alexa, start meeting kickoff",
+            "Alexa, meeting kickoff"
+          ],
+          "keywords": [],
+          "name": "Meeting Summarizer",
+          "description": "About to start a big company meeting? Just say, \"Alexa, start meeting kickoff\" and Alexa will summarize and take notes for you! This automatic process lets you ease your mind and just focus on speaking. Stuck on a split decision? Just provide some information about your topic and Alexa will guide you down the right path. When you finish your meeting, tell Alexa that your meeting is adjourned and it will provide you with a comprehensive meeting summary as well as an overview of the tasks each team member needs to complete. Alexa makes meeting minutes easy so you can focus on what\u0027s really important.",
+          "smallIconUri": "file://assets/images/en-CA_smallIconUri.png",
+          "largeIconUri": "file://assets/images/en-CA_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "isActive": false
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "{\"ask_dist_username\":\"\",\"ask_dist_password\":\"\",\"ask_dist_testing_instructions\":\"Sample Testing Instructions.\"}",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:054966222239:function:073708a1-e515-4f12-8803-8fb2ecc158f8:Release_0"
+        },
+        "interfaces": [],
+        "locales": {},
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:054966222239:function:073708a1-e515-4f12-8803-8fb2ecc158f8:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:054966222239:function:073708a1-e515-4f12-8803-8fb2ecc158f8:Release_0"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:054966222239:function:073708a1-e515-4f12-8803-8fb2ecc158f8:Release_0"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-CA": {}
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "shoppingKit": {
+        "isShoppingActionsEnabled": false,
+        "isAmazonAssociatesOnAlexaEnabled": false
+      },
+      "usesPersonalInfo": false
+    }
+  }
+}
